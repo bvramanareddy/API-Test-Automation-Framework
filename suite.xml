@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Test Suite" parallel="false">
+<listeners>
+    <listener class-name="com.api.listners.MyTestListner"/>
+</listeners>
+    <test name="Create Account Test">
+        <classes>
+            <class name="com.api.tests.CreateAccountTest"/>
+        </classes>
+    </test>
+
+    <test name="Create Account Test Using Lombok">
+        <classes>
+            <class name="com.api.tests.CreateAccountTestUsingLombok"/>
+        </classes>
+    </test>
+
+    <test name="Forgot Password Test">
+        <classes>
+            <class name="com.api.tests.ForgotPasswordTest"/>
+        </classes>
+    </test>
+
+    <test name="Get Profile Test">
+        <classes>
+            <class name="com.api.tests.GetProfileTest"/>
+        </classes>
+    </test>
+
+    <test name="Login API Test">
+        <classes>
+            <class name="com.api.tests.LoginAPITest"/>
+        </classes>
+    </test>
+
+    <test name="Login API Test 2">
+        <classes>
+            <class name="com.api.tests.LoginAPITest2"/>
+        </classes>
+    </test>
+
+    <test name="Update Profile Test">
+        <classes>
+            <class name="com.api.tests.UpdateProfileTest"/>
+        </classes>
+    </test>
+
+</suite>
