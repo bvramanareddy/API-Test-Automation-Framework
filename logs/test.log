@@ -1,0 +1,1833 @@
+17:51:40 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Started>>>>>>>>>>
+17:51:40 [main] INFO  com.api.listners.MyTestListner - TEST STARTED-> loginAPITest1
+17:51:40 [main] INFO  com.api.listners.MyTestListner - TEST DESCRIPTION->Validating the basic login functionality
+17:51:42 [main] INFO  com.api.listners.MyTestListner - TEST SUUCESS-> loginAPITest1
+17:51:42 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Completed>>>>>>>>>>
+20:13:41 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:13:41 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+20:13:41 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {"username":"BoxelAr","password":"Abc@12345"}
+20:13:42 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:13:42 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODcwODIzLCJleHAiOjE3NDk4NzQ0MjN9.awY2W_RR2QQqOC-VhhFZnOj1J0ieIIJ112GkFGvfszs",
+    "type": "Bearer",
+    "id": 1592,
+    "username": "BoxelAr",
+    "email": "boxelar540@gotemv.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+20:13:42 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:13:43 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:13:42 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:13:42 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODcwODIzLCJleHAiOjE3NDk4NzQ0MjN9.awY2W_RR2QQqOC-VhhFZnOj1J0ieIIJ112GkFGvfszs
+Accept=*/*
+20:13:42 [main] INFO  com.api.filters.LoggingFilter - PayLoad: null
+20:13:43 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:13:43 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "id": 1592,
+    "username": "BoxelAr",
+    "email": "boxelar540@gotemv.com",
+    "firstName": "Sanjeeva Reddy",
+    "lastName": "Boda",
+    "mobileNumber": "6478641888"
+}
+20:13:43 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:13:43 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:13:43 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:13:43 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODcwODIzLCJleHAiOjE3NDk4NzQ0MjN9.awY2W_RR2QQqOC-VhhFZnOj1J0ieIIJ112GkFGvfszs
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODcwODIzLCJleHAiOjE3NDk4NzQ0MjN9.awY2W_RR2QQqOC-VhhFZnOj1J0ieIIJ112GkFGvfszs
+Content-Type=application/json
+20:13:43 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {"firstName":"Sanjeeva Reddy","lastName":"Boda","email":"boxelar540@gotemv.com","mobileNumber":"6478641888"}
+20:13:44 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:13:44 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "id": 1592,
+    "username": "BoxelAr",
+    "email": "boxelar540@gotemv.com",
+    "firstName": "Sanjeeva Reddy",
+    "lastName": "Boda",
+    "mobileNumber": "6478641888"
+}
+20:13:44 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:13:44 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:27:11 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Started>>>>>>>>>>
+20:27:11 [main] INFO  com.api.listners.MyTestListner - TEST STARTED-> createUserAccountTest
+20:27:11 [main] INFO  com.api.listners.MyTestListner - TEST DESCRIPTION->This test will handles user account creation
+20:27:12 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:27:12 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+20:27:12 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {"username":"Ramana6544","password":"Abc@12345","email":"boda.v7@aol.com","firstName":"Rams3","lastName":"redy","mobileNumber":"1234567890"}
+20:27:13 [main] INFO  com.api.filters.LoggingFilter - Status Code: 400
+20:27:13 [main] INFO  com.api.filters.LoggingFilter - Resp Body: Error: Username is already taken!
+20:27:13 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=text/plain;charset=UTF-8
+Content-Length=33
+Date=Sat, 14 Jun 2025 03:27:13 GMT
+Connection=close
+20:27:13 [main] INFO  com.api.listners.MyTestListner - TEST SUUCESS-> createUserAccountTest
+20:27:13 [main] INFO  com.api.listners.MyTestListner - TEST STARTED-> createUserAccountTestbyLombok
+20:27:13 [main] INFO  com.api.listners.MyTestListner - TEST DESCRIPTION->This test will handles user account creation with Lombok
+20:27:13 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:27:13 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+20:27:13 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {"username":"123@qwewe","password":"Abc!@!21","email":"redy123@aol.com","firstName":"Ramana","lastName":"Reddy","mobileNumber":"5656565656"}
+20:27:13 [main] INFO  com.api.filters.LoggingFilter - Status Code: 400
+20:27:13 [main] INFO  com.api.filters.LoggingFilter - Resp Body: Error: Username is already taken!
+20:27:13 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=text/plain;charset=UTF-8
+Content-Length=33
+Date=Sat, 14 Jun 2025 03:27:13 GMT
+Connection=close
+20:27:13 [main] INFO  com.api.listners.MyTestListner - TEST SUUCESS-> createUserAccountTestbyLombok
+20:27:13 [main] INFO  com.api.listners.MyTestListner - TEST STARTED-> forgotPasswordTest
+20:27:13 [main] INFO  com.api.listners.MyTestListner - TEST DESCRIPTION->Verify the Forgot Password Functionality
+20:27:13 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:27:13 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+20:27:13 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {"email":"boda.v7@aol.com"}
+20:27:14 [main] INFO  com.api.filters.LoggingFilter - Status Code: 500
+20:27:14 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "timestamp": "2025-06-14 03:27:14",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/auth/forgot-password",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+20:27:14 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:27:14 GMT
+Connection=close
+20:27:14 [main] INFO  com.api.listners.MyTestListner - TEST SUUCESS-> forgotPasswordTest
+20:27:14 [main] INFO  com.api.listners.MyTestListner - TEST STARTED-> getProfileInfoTest
+20:27:14 [main] INFO  com.api.listners.MyTestListner - TEST DESCRIPTION->Verify get profile of user
+20:27:14 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:27:14 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+20:27:14 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {"username":"BoxelAr","password":"Abc@12345"}
+20:27:14 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:27:14 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODcxNjM1LCJleHAiOjE3NDk4NzUyMzV9.4bVGbE-pIgpmd_9BScqWHebSh1KxctsiUoYgWEkMOL4",
+    "type": "Bearer",
+    "id": 1592,
+    "username": "BoxelAr",
+    "email": "boxelar540@gotemv.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+20:27:14 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:27:15 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:27:14 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:27:14 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODcxNjM1LCJleHAiOjE3NDk4NzUyMzV9.4bVGbE-pIgpmd_9BScqWHebSh1KxctsiUoYgWEkMOL4
+Accept=*/*
+20:27:14 [main] INFO  com.api.filters.LoggingFilter - PayLoad: null
+20:27:15 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:27:15 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "id": 1592,
+    "username": "BoxelAr",
+    "email": "boxelar540@gotemv.com",
+    "firstName": "Sanjeeva Reddy",
+    "lastName": "Boda",
+    "mobileNumber": "6478641888"
+}
+20:27:15 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:27:15 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:27:15 [main] INFO  com.api.listners.MyTestListner - TEST SUUCESS-> getProfileInfoTest
+20:27:15 [main] INFO  com.api.listners.MyTestListner - TEST STARTED-> loginAPITest1
+20:27:15 [main] INFO  com.api.listners.MyTestListner - TEST DESCRIPTION->Validating the basic login functionality
+20:27:15 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:27:15 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+20:27:15 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {
+  "username": "BoxelAr",
+  "password": "Abc@12345"
+}
+20:27:16 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:27:16 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODcxNjM2LCJleHAiOjE3NDk4NzUyMzZ9.jBxl0f4HLBlfI3cqVWt9zhIL72o4tp7Oc66I3dewD9A",
+    "type": "Bearer",
+    "id": 1592,
+    "username": "BoxelAr",
+    "email": "boxelar540@gotemv.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+20:27:16 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:27:16 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:27:16 [main] INFO  com.api.listners.MyTestListner - TEST SUUCESS-> loginAPITest1
+20:27:16 [main] INFO  com.api.listners.MyTestListner - TEST STARTED-> loginAPITest
+20:27:16 [main] INFO  com.api.listners.MyTestListner - TEST DESCRIPTION->Validating the basic login functionality
+20:27:16 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:27:16 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+20:27:16 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {"username":"BoxelAr","password":"Abc@12345"}
+20:27:16 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:27:16 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODcxNjM3LCJleHAiOjE3NDk4NzUyMzd9.Kem7wLy0JasAupBni5SF8RCEHU7Rsahy5-zMeAJqD_o",
+    "type": "Bearer",
+    "id": 1592,
+    "username": "BoxelAr",
+    "email": "boxelar540@gotemv.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+20:27:16 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:27:17 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:27:16 [main] INFO  com.api.listners.MyTestListner - TEST SUUCESS-> loginAPITest
+20:27:16 [main] INFO  com.api.listners.MyTestListner - TEST STARTED-> updateProfileTest
+20:27:16 [main] INFO  com.api.listners.MyTestListner - TEST DESCRIPTION->Verify update profile is updating the details
+20:27:16 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:27:16 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+20:27:16 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {"username":"BoxelAr","password":"Abc@12345"}
+20:27:17 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:27:17 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODcxNjM3LCJleHAiOjE3NDk4NzUyMzd9.Kem7wLy0JasAupBni5SF8RCEHU7Rsahy5-zMeAJqD_o",
+    "type": "Bearer",
+    "id": 1592,
+    "username": "BoxelAr",
+    "email": "boxelar540@gotemv.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+20:27:17 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:27:17 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:27:17 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:27:17 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODcxNjM3LCJleHAiOjE3NDk4NzUyMzd9.Kem7wLy0JasAupBni5SF8RCEHU7Rsahy5-zMeAJqD_o
+Accept=*/*
+20:27:17 [main] INFO  com.api.filters.LoggingFilter - PayLoad: null
+20:27:18 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:27:18 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "id": 1592,
+    "username": "BoxelAr",
+    "email": "boxelar540@gotemv.com",
+    "firstName": "Sanjeeva Reddy",
+    "lastName": "Boda",
+    "mobileNumber": "6478641888"
+}
+20:27:18 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:27:18 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:27:18 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:27:18 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODcxNjM3LCJleHAiOjE3NDk4NzUyMzd9.Kem7wLy0JasAupBni5SF8RCEHU7Rsahy5-zMeAJqD_o
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODcxNjM3LCJleHAiOjE3NDk4NzUyMzd9.Kem7wLy0JasAupBni5SF8RCEHU7Rsahy5-zMeAJqD_o
+Content-Type=application/json
+20:27:18 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {"firstName":"Sanjeeva Reddy","lastName":"Boda","email":"boxelar540@gotemv.com","mobileNumber":"6478641888"}
+20:27:18 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:27:18 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "id": 1592,
+    "username": "BoxelAr",
+    "email": "boxelar540@gotemv.com",
+    "firstName": "Sanjeeva Reddy",
+    "lastName": "Boda",
+    "mobileNumber": "6478641888"
+}
+20:27:18 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:27:18 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:27:18 [main] INFO  com.api.listners.MyTestListner - TEST SUUCESS-> updateProfileTest
+20:27:18 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Completed>>>>>>>>>>
+20:35:36 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Started>>>>>>>>>>
+20:35:36 [main] INFO  com.api.listners.MyTestListner - TEST STARTED-> createUserAccountTest
+20:35:36 [main] INFO  com.api.listners.MyTestListner - TEST DESCRIPTION->This test will handles user account creation
+20:35:37 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:35:37 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+20:35:37 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {"username":"Ramana6544","password":"Abc@12345","email":"boda.v7@aol.com","firstName":"Rams3","lastName":"redy","mobileNumber":"1234567890"}
+20:35:38 [main] INFO  com.api.filters.LoggingFilter - Status Code: 400
+20:35:38 [main] INFO  com.api.filters.LoggingFilter - Resp Body: Error: Username is already taken!
+20:35:38 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=text/plain;charset=UTF-8
+Content-Length=33
+Date=Sat, 14 Jun 2025 03:35:38 GMT
+Connection=close
+20:35:38 [main] INFO  com.api.listners.MyTestListner - TEST SUUCESS-> createUserAccountTest
+20:35:38 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Completed>>>>>>>>>>
+20:35:38 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Started>>>>>>>>>>
+20:35:38 [main] INFO  com.api.listners.MyTestListner - TEST STARTED-> createUserAccountTestbyLombok
+20:35:38 [main] INFO  com.api.listners.MyTestListner - TEST DESCRIPTION->This test will handles user account creation with Lombok
+20:35:38 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:35:38 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+20:35:38 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {"username":"123@qwewe","password":"Abc!@!21","email":"redy123@aol.com","firstName":"Ramana","lastName":"Reddy","mobileNumber":"5656565656"}
+20:35:38 [main] INFO  com.api.filters.LoggingFilter - Status Code: 400
+20:35:38 [main] INFO  com.api.filters.LoggingFilter - Resp Body: Error: Username is already taken!
+20:35:38 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=text/plain;charset=UTF-8
+Content-Length=33
+Date=Sat, 14 Jun 2025 03:35:39 GMT
+Connection=close
+20:35:38 [main] INFO  com.api.listners.MyTestListner - TEST SUUCESS-> createUserAccountTestbyLombok
+20:35:38 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Completed>>>>>>>>>>
+20:35:38 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Started>>>>>>>>>>
+20:35:38 [main] INFO  com.api.listners.MyTestListner - TEST STARTED-> forgotPasswordTest
+20:35:38 [main] INFO  com.api.listners.MyTestListner - TEST DESCRIPTION->Verify the Forgot Password Functionality
+20:35:38 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:35:38 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+20:35:38 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {"email":"boda.v7@aol.com"}
+20:35:39 [main] INFO  com.api.filters.LoggingFilter - Status Code: 500
+20:35:39 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "timestamp": "2025-06-14 03:35:39",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/auth/forgot-password",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+20:35:39 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:35:39 GMT
+Connection=close
+20:35:39 [main] INFO  com.api.listners.MyTestListner - TEST SUUCESS-> forgotPasswordTest
+20:35:39 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Completed>>>>>>>>>>
+20:35:39 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Started>>>>>>>>>>
+20:35:39 [main] INFO  com.api.listners.MyTestListner - TEST STARTED-> getProfileInfoTest
+20:35:39 [main] INFO  com.api.listners.MyTestListner - TEST DESCRIPTION->Verify get profile of user
+20:35:39 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:35:39 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+20:35:39 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {"username":"BoxelAr","password":"Abc@12345"}
+20:35:39 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:35:39 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODcyMTQwLCJleHAiOjE3NDk4NzU3NDB9.JxuT2ixBnFKpjusFsNKkUGXAwbfqZTXXypuxjsxB-bA",
+    "type": "Bearer",
+    "id": 1592,
+    "username": "BoxelAr",
+    "email": "boxelar540@gotemv.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+20:35:39 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:35:40 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:35:39 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:35:39 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODcyMTQwLCJleHAiOjE3NDk4NzU3NDB9.JxuT2ixBnFKpjusFsNKkUGXAwbfqZTXXypuxjsxB-bA
+Accept=*/*
+20:35:39 [main] INFO  com.api.filters.LoggingFilter - PayLoad: null
+20:35:40 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:35:40 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "id": 1592,
+    "username": "BoxelAr",
+    "email": "boxelar540@gotemv.com",
+    "firstName": "Sanjeeva Reddy",
+    "lastName": "Boda",
+    "mobileNumber": "6478641888"
+}
+20:35:40 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:35:40 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:35:40 [main] INFO  com.api.listners.MyTestListner - TEST SUUCESS-> getProfileInfoTest
+20:35:40 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Completed>>>>>>>>>>
+20:35:40 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Started>>>>>>>>>>
+20:35:40 [main] INFO  com.api.listners.MyTestListner - TEST STARTED-> loginAPITest1
+20:35:40 [main] INFO  com.api.listners.MyTestListner - TEST DESCRIPTION->Validating the basic login functionality
+20:35:40 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:35:40 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+20:35:40 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {
+  "username": "BoxelAr",
+  "password": "Abc@12345"
+}
+20:35:41 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:35:41 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODcyMTQxLCJleHAiOjE3NDk4NzU3NDF9.JKgCXz3gEN7uW_pzDBqJbfO0jVX3KXP367etNIffD6Q",
+    "type": "Bearer",
+    "id": 1592,
+    "username": "BoxelAr",
+    "email": "boxelar540@gotemv.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+20:35:41 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:35:41 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:35:41 [main] INFO  com.api.listners.MyTestListner - TEST SUUCESS-> loginAPITest1
+20:35:41 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Completed>>>>>>>>>>
+20:35:41 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:35:41 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+20:35:41 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {"username":"BoxelAr","password":"Abc@12345"}
+20:35:41 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:35:41 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODcyMTQyLCJleHAiOjE3NDk4NzU3NDJ9.AR8EDulDRRK2fWKisGH6vh-kPFiFZ9P3JOKmF5OLB1I",
+    "type": "Bearer",
+    "id": 1592,
+    "username": "BoxelAr",
+    "email": "boxelar540@gotemv.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+20:35:41 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:35:42 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:35:41 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:35:41 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+20:35:41 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {"username":"BoxelAr","password":"Abc@12345"}
+20:35:42 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:35:42 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODcyMTQyLCJleHAiOjE3NDk4NzU3NDJ9.AR8EDulDRRK2fWKisGH6vh-kPFiFZ9P3JOKmF5OLB1I",
+    "type": "Bearer",
+    "id": 1592,
+    "username": "BoxelAr",
+    "email": "boxelar540@gotemv.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+20:35:42 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:35:42 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:35:42 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:35:42 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODcyMTQyLCJleHAiOjE3NDk4NzU3NDJ9.AR8EDulDRRK2fWKisGH6vh-kPFiFZ9P3JOKmF5OLB1I
+Accept=*/*
+20:35:42 [main] INFO  com.api.filters.LoggingFilter - PayLoad: null
+20:35:43 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:35:43 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "id": 1592,
+    "username": "BoxelAr",
+    "email": "boxelar540@gotemv.com",
+    "firstName": "Sanjeeva Reddy",
+    "lastName": "Boda",
+    "mobileNumber": "6478641888"
+}
+20:35:43 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:35:43 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:35:43 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:35:43 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODcyMTQyLCJleHAiOjE3NDk4NzU3NDJ9.AR8EDulDRRK2fWKisGH6vh-kPFiFZ9P3JOKmF5OLB1I
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODcyMTQyLCJleHAiOjE3NDk4NzU3NDJ9.AR8EDulDRRK2fWKisGH6vh-kPFiFZ9P3JOKmF5OLB1I
+Content-Type=application/json
+20:35:43 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {"firstName":"Sanjeeva Reddy","lastName":"Boda","email":"boxelar540@gotemv.com","mobileNumber":"6478641888"}
+20:35:43 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:35:43 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "id": 1592,
+    "username": "BoxelAr",
+    "email": "boxelar540@gotemv.com",
+    "firstName": "Sanjeeva Reddy",
+    "lastName": "Boda",
+    "mobileNumber": "6478641888"
+}
+20:35:43 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:35:44 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:40:02 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Started>>>>>>>>>>
+20:40:02 [main] INFO  com.api.listners.MyTestListner - TEST STARTED-> createUserAccountTest
+20:40:02 [main] INFO  com.api.listners.MyTestListner - TEST DESCRIPTION->This test will handles user account creation
+20:40:03 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:40:03 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+20:40:03 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {"username":"Ramana6544","password":"Abc@12345","email":"boda.v7@aol.com","firstName":"Rams3","lastName":"redy","mobileNumber":"1234567890"}
+20:40:03 [main] INFO  com.api.filters.LoggingFilter - Status Code: 400
+20:40:03 [main] INFO  com.api.filters.LoggingFilter - Resp Body: Error: Username is already taken!
+20:40:03 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=text/plain;charset=UTF-8
+Content-Length=33
+Date=Sat, 14 Jun 2025 03:40:04 GMT
+Connection=close
+20:40:03 [main] INFO  com.api.listners.MyTestListner - TEST SUUCESS-> createUserAccountTest
+20:40:03 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Completed>>>>>>>>>>
+20:40:03 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Started>>>>>>>>>>
+20:40:03 [main] INFO  com.api.listners.MyTestListner - TEST STARTED-> createUserAccountTestbyLombok
+20:40:03 [main] INFO  com.api.listners.MyTestListner - TEST DESCRIPTION->This test will handles user account creation with Lombok
+20:40:03 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:40:03 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+20:40:03 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {"username":"123@qwewe","password":"Abc!@!21","email":"redy123@aol.com","firstName":"Ramana","lastName":"Reddy","mobileNumber":"5656565656"}
+20:40:04 [main] INFO  com.api.filters.LoggingFilter - Status Code: 400
+20:40:04 [main] INFO  com.api.filters.LoggingFilter - Resp Body: Error: Username is already taken!
+20:40:04 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=text/plain;charset=UTF-8
+Content-Length=33
+Date=Sat, 14 Jun 2025 03:40:04 GMT
+Connection=close
+20:40:04 [main] INFO  com.api.listners.MyTestListner - TEST SUUCESS-> createUserAccountTestbyLombok
+20:40:04 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Completed>>>>>>>>>>
+20:40:04 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Started>>>>>>>>>>
+20:40:04 [main] INFO  com.api.listners.MyTestListner - TEST STARTED-> forgotPasswordTest
+20:40:04 [main] INFO  com.api.listners.MyTestListner - TEST DESCRIPTION->Verify the Forgot Password Functionality
+20:40:04 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:40:04 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+20:40:04 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {"email":"boda.v7@aol.com"}
+20:40:05 [main] INFO  com.api.filters.LoggingFilter - Status Code: 500
+20:40:05 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "timestamp": "2025-06-14 03:40:05",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/auth/forgot-password",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+20:40:05 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:40:05 GMT
+Connection=close
+20:40:05 [main] INFO  com.api.listners.MyTestListner - TEST SUUCESS-> forgotPasswordTest
+20:40:05 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Completed>>>>>>>>>>
+20:40:05 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Started>>>>>>>>>>
+20:40:05 [main] INFO  com.api.listners.MyTestListner - TEST STARTED-> getProfileInfoTest
+20:40:05 [main] INFO  com.api.listners.MyTestListner - TEST DESCRIPTION->Verify get profile of user
+20:40:05 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:40:05 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+20:40:05 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {"username":"BoxelAr","password":"Abc@12345"}
+20:40:05 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:40:05 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODcyNDA2LCJleHAiOjE3NDk4NzYwMDZ9.UHMwXeMDdQ5Vmw5PJsPbCJmBtchoQEL0oyhF_D4fxJE",
+    "type": "Bearer",
+    "id": 1592,
+    "username": "BoxelAr",
+    "email": "boxelar540@gotemv.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+20:40:05 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:40:06 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:40:05 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:40:05 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODcyNDA2LCJleHAiOjE3NDk4NzYwMDZ9.UHMwXeMDdQ5Vmw5PJsPbCJmBtchoQEL0oyhF_D4fxJE
+Accept=*/*
+20:40:05 [main] INFO  com.api.filters.LoggingFilter - PayLoad: null
+20:40:06 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:40:06 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "id": 1592,
+    "username": "BoxelAr",
+    "email": "boxelar540@gotemv.com",
+    "firstName": "Sanjeeva Reddy",
+    "lastName": "Boda",
+    "mobileNumber": "6478641888"
+}
+20:40:06 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:40:06 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:40:06 [main] INFO  com.api.listners.MyTestListner - TEST SUUCESS-> getProfileInfoTest
+20:40:06 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Completed>>>>>>>>>>
+20:40:06 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Started>>>>>>>>>>
+20:40:06 [main] INFO  com.api.listners.MyTestListner - TEST STARTED-> loginAPITest1
+20:40:06 [main] INFO  com.api.listners.MyTestListner - TEST DESCRIPTION->Validating the basic login functionality
+20:40:06 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:40:06 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+20:40:06 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {
+  "username": "BoxelAr",
+  "password": "Abc@12345"
+}
+20:40:07 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:40:07 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODcyNDA3LCJleHAiOjE3NDk4NzYwMDd9.UEPE4Xo2mDCt0ewE1-KQ9qEr_Zo92e_OktJk-mV621w",
+    "type": "Bearer",
+    "id": 1592,
+    "username": "BoxelAr",
+    "email": "boxelar540@gotemv.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+20:40:07 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:40:07 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:40:07 [main] INFO  com.api.listners.MyTestListner - TEST SUUCESS-> loginAPITest1
+20:40:07 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Completed>>>>>>>>>>
+20:40:07 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:40:07 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+20:40:07 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {"username":"BoxelAr","password":"Abc@12345"}
+20:40:07 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:40:07 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODcyNDA4LCJleHAiOjE3NDk4NzYwMDh9.g0wPohAw4KdEHx5lTzoxxBo9irmDmVRafvIzpyDy7Ho",
+    "type": "Bearer",
+    "id": 1592,
+    "username": "BoxelAr",
+    "email": "boxelar540@gotemv.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+20:40:07 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:40:08 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:40:07 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:40:07 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+20:40:07 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {"username":"BoxelAr","password":"Abc@12345"}
+20:40:08 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:40:08 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODcyNDA4LCJleHAiOjE3NDk4NzYwMDh9.g0wPohAw4KdEHx5lTzoxxBo9irmDmVRafvIzpyDy7Ho",
+    "type": "Bearer",
+    "id": 1592,
+    "username": "BoxelAr",
+    "email": "boxelar540@gotemv.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+20:40:08 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:40:08 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:40:08 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:40:08 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODcyNDA4LCJleHAiOjE3NDk4NzYwMDh9.g0wPohAw4KdEHx5lTzoxxBo9irmDmVRafvIzpyDy7Ho
+Accept=*/*
+20:40:08 [main] INFO  com.api.filters.LoggingFilter - PayLoad: null
+20:40:09 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:40:09 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "id": 1592,
+    "username": "BoxelAr",
+    "email": "boxelar540@gotemv.com",
+    "firstName": "Sanjeeva Reddy",
+    "lastName": "Boda",
+    "mobileNumber": "6478641888"
+}
+20:40:09 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:40:09 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:40:09 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:40:09 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODcyNDA4LCJleHAiOjE3NDk4NzYwMDh9.g0wPohAw4KdEHx5lTzoxxBo9irmDmVRafvIzpyDy7Ho
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODcyNDA4LCJleHAiOjE3NDk4NzYwMDh9.g0wPohAw4KdEHx5lTzoxxBo9irmDmVRafvIzpyDy7Ho
+Content-Type=application/json
+20:40:09 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {"firstName":"Sanjeeva Reddy","lastName":"Boda","email":"boxelar540@gotemv.com","mobileNumber":"6478641888"}
+20:40:09 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:40:09 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "id": 1592,
+    "username": "BoxelAr",
+    "email": "boxelar540@gotemv.com",
+    "firstName": "Sanjeeva Reddy",
+    "lastName": "Boda",
+    "mobileNumber": "6478641888"
+}
+20:40:09 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:40:09 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:44:29 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Started>>>>>>>>>>
+20:44:29 [main] INFO  com.api.listners.MyTestListner - TEST STARTED-> createUserAccountTest
+20:44:29 [main] INFO  com.api.listners.MyTestListner - TEST DESCRIPTION->This test will handles user account creation
+20:44:30 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:44:30 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+20:44:30 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {"username":"Ramana6544","password":"Abc@12345","email":"boda.v7@aol.com","firstName":"Rams3","lastName":"redy","mobileNumber":"1234567890"}
+20:44:31 [main] INFO  com.api.filters.LoggingFilter - Status Code: 400
+20:44:31 [main] INFO  com.api.filters.LoggingFilter - Resp Body: Error: Username is already taken!
+20:44:31 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=text/plain;charset=UTF-8
+Content-Length=33
+Date=Sat, 14 Jun 2025 03:44:31 GMT
+Connection=close
+20:44:31 [main] INFO  com.api.listners.MyTestListner - TEST SUUCESS-> createUserAccountTest
+20:44:31 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Completed>>>>>>>>>>
+20:44:31 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Started>>>>>>>>>>
+20:44:31 [main] INFO  com.api.listners.MyTestListner - TEST STARTED-> createUserAccountTestbyLombok
+20:44:31 [main] INFO  com.api.listners.MyTestListner - TEST DESCRIPTION->This test will handles user account creation with Lombok
+20:44:31 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:44:31 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+20:44:31 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {"username":"123@qwewe","password":"Abc!@!21","email":"redy123@aol.com","firstName":"Ramana","lastName":"Reddy","mobileNumber":"5656565656"}
+20:44:31 [main] INFO  com.api.filters.LoggingFilter - Status Code: 400
+20:44:31 [main] INFO  com.api.filters.LoggingFilter - Resp Body: Error: Username is already taken!
+20:44:31 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=text/plain;charset=UTF-8
+Content-Length=33
+Date=Sat, 14 Jun 2025 03:44:31 GMT
+Connection=close
+20:44:31 [main] INFO  com.api.listners.MyTestListner - TEST SUUCESS-> createUserAccountTestbyLombok
+20:44:31 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Completed>>>>>>>>>>
+20:44:31 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Started>>>>>>>>>>
+20:44:31 [main] INFO  com.api.listners.MyTestListner - TEST STARTED-> forgotPasswordTest
+20:44:31 [main] INFO  com.api.listners.MyTestListner - TEST DESCRIPTION->Verify the Forgot Password Functionality
+20:44:31 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:44:31 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+20:44:31 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {"email":"boda.v7@aol.com"}
+20:44:32 [main] INFO  com.api.filters.LoggingFilter - Status Code: 500
+20:44:32 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "timestamp": "2025-06-14 03:44:32",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/auth/forgot-password",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+20:44:32 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:44:32 GMT
+Connection=close
+20:44:32 [main] INFO  com.api.listners.MyTestListner - TEST SUUCESS-> forgotPasswordTest
+20:44:32 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Completed>>>>>>>>>>
+20:44:32 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Started>>>>>>>>>>
+20:44:32 [main] INFO  com.api.listners.MyTestListner - TEST STARTED-> getProfileInfoTest
+20:44:32 [main] INFO  com.api.listners.MyTestListner - TEST DESCRIPTION->Verify get profile of user
+20:44:32 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:44:32 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+20:44:32 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {"username":"BoxelAr","password":"Abc@12345"}
+20:44:32 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:44:32 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODcyNjczLCJleHAiOjE3NDk4NzYyNzN9.gWL5xs9PApCMqXpiCLhh_23MEKIGt1CoKVCAxr7C-wY",
+    "type": "Bearer",
+    "id": 1592,
+    "username": "BoxelAr",
+    "email": "boxelar540@gotemv.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+20:44:32 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:44:33 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:44:32 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:44:32 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODcyNjczLCJleHAiOjE3NDk4NzYyNzN9.gWL5xs9PApCMqXpiCLhh_23MEKIGt1CoKVCAxr7C-wY
+Accept=*/*
+20:44:32 [main] INFO  com.api.filters.LoggingFilter - PayLoad: null
+20:44:33 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:44:33 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "id": 1592,
+    "username": "BoxelAr",
+    "email": "boxelar540@gotemv.com",
+    "firstName": "Sanjeeva Reddy",
+    "lastName": "Boda",
+    "mobileNumber": "6478641888"
+}
+20:44:33 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:44:33 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:44:33 [main] INFO  com.api.listners.MyTestListner - TEST SUUCESS-> getProfileInfoTest
+20:44:33 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Completed>>>>>>>>>>
+20:44:33 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Started>>>>>>>>>>
+20:44:33 [main] INFO  com.api.listners.MyTestListner - TEST STARTED-> loginAPITest1
+20:44:33 [main] INFO  com.api.listners.MyTestListner - TEST DESCRIPTION->Validating the basic login functionality
+20:44:33 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:44:33 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+20:44:33 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {
+  "username": "BoxelAr",
+  "password": "Abc@12345"
+}
+20:44:34 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:44:34 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODcyNjc0LCJleHAiOjE3NDk4NzYyNzR9.A37iy794JhXt-3hEBWYXgd_7tIMEFAptjf8n3IscOwk",
+    "type": "Bearer",
+    "id": 1592,
+    "username": "BoxelAr",
+    "email": "boxelar540@gotemv.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+20:44:34 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:44:34 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:44:34 [main] INFO  com.api.listners.MyTestListner - TEST SUUCESS-> loginAPITest1
+20:44:34 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Completed>>>>>>>>>>
+20:44:34 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Started>>>>>>>>>>
+20:44:34 [main] INFO  com.api.listners.MyTestListner - TEST STARTED-> loginAPITest
+20:44:34 [main] INFO  com.api.listners.MyTestListner - TEST DESCRIPTION->Validating the basic login functionality
+20:44:34 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:44:34 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+20:44:34 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {"username":"BoxelAr","password":"Abc@12345"}
+20:44:34 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:44:34 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODcyNjc1LCJleHAiOjE3NDk4NzYyNzV9.egHubUeCeSDKn8iCjaDZcmXZxt3srLy9IrkjPno9XSI",
+    "type": "Bearer",
+    "id": 1592,
+    "username": "BoxelAr",
+    "email": "boxelar540@gotemv.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+20:44:34 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:44:35 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:44:34 [main] INFO  com.api.listners.MyTestListner - TEST SUUCESS-> loginAPITest
+20:44:34 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Completed>>>>>>>>>>
+20:44:34 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Started>>>>>>>>>>
+20:44:34 [main] INFO  com.api.listners.MyTestListner - TEST STARTED-> updateProfileTest
+20:44:34 [main] INFO  com.api.listners.MyTestListner - TEST DESCRIPTION->Verify update profile is updating the details
+20:44:34 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:44:34 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+20:44:34 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {"username":"BoxelAr","password":"Abc@12345"}
+20:44:35 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:44:35 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODcyNjc1LCJleHAiOjE3NDk4NzYyNzV9.egHubUeCeSDKn8iCjaDZcmXZxt3srLy9IrkjPno9XSI",
+    "type": "Bearer",
+    "id": 1592,
+    "username": "BoxelAr",
+    "email": "boxelar540@gotemv.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+20:44:35 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:44:35 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:44:35 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:44:35 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODcyNjc1LCJleHAiOjE3NDk4NzYyNzV9.egHubUeCeSDKn8iCjaDZcmXZxt3srLy9IrkjPno9XSI
+Accept=*/*
+20:44:35 [main] INFO  com.api.filters.LoggingFilter - PayLoad: null
+20:44:36 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:44:36 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "id": 1592,
+    "username": "BoxelAr",
+    "email": "boxelar540@gotemv.com",
+    "firstName": "Sanjeeva Reddy",
+    "lastName": "Boda",
+    "mobileNumber": "6478641888"
+}
+20:44:36 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:44:36 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:44:36 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:44:36 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODcyNjc1LCJleHAiOjE3NDk4NzYyNzV9.egHubUeCeSDKn8iCjaDZcmXZxt3srLy9IrkjPno9XSI
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODcyNjc1LCJleHAiOjE3NDk4NzYyNzV9.egHubUeCeSDKn8iCjaDZcmXZxt3srLy9IrkjPno9XSI
+Content-Type=application/json
+20:44:36 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {"firstName":"Sanjeeva Reddy","lastName":"Boda","email":"boxelar540@gotemv.com","mobileNumber":"6478641888"}
+20:44:36 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:44:36 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "id": 1592,
+    "username": "BoxelAr",
+    "email": "boxelar540@gotemv.com",
+    "firstName": "Sanjeeva Reddy",
+    "lastName": "Boda",
+    "mobileNumber": "6478641888"
+}
+20:44:36 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:44:36 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:44:36 [main] INFO  com.api.listners.MyTestListner - TEST SUUCESS-> updateProfileTest
+20:44:36 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Completed>>>>>>>>>>
+20:51:25 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Started>>>>>>>>>>
+20:51:25 [main] INFO  com.api.listners.MyTestListner - TEST STARTED-> createUserAccountTest
+20:51:25 [main] INFO  com.api.listners.MyTestListner - TEST DESCRIPTION->This test will handles user account creation
+20:51:27 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:51:27 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+20:51:27 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {"username":"Ramana6544","password":"Abc@12345","email":"boda.v7@aol.com","firstName":"Rams3","lastName":"redy","mobileNumber":"1234567890"}
+20:51:29 [main] INFO  com.api.filters.LoggingFilter - Status Code: 400
+20:51:29 [main] INFO  com.api.filters.LoggingFilter - Resp Body: Error: Username is already taken!
+20:51:29 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=text/plain;charset=UTF-8
+Content-Length=33
+Date=Sat, 14 Jun 2025 03:51:29 GMT
+Connection=close
+20:51:29 [main] INFO  com.api.listners.MyTestListner - TEST SUUCESS-> createUserAccountTest
+20:51:29 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Completed>>>>>>>>>>
+20:51:29 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Started>>>>>>>>>>
+20:51:29 [main] INFO  com.api.listners.MyTestListner - TEST STARTED-> createUserAccountTestbyLombok
+20:51:29 [main] INFO  com.api.listners.MyTestListner - TEST DESCRIPTION->This test will handles user account creation with Lombok
+20:51:29 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:51:29 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+20:51:29 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {"username":"123@qwewe","password":"Abc!@!21","email":"redy123@aol.com","firstName":"Ramana","lastName":"Reddy","mobileNumber":"5656565656"}
+20:51:29 [main] INFO  com.api.filters.LoggingFilter - Status Code: 400
+20:51:29 [main] INFO  com.api.filters.LoggingFilter - Resp Body: Error: Username is already taken!
+20:51:29 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=text/plain;charset=UTF-8
+Content-Length=33
+Date=Sat, 14 Jun 2025 03:51:30 GMT
+Connection=close
+20:51:29 [main] INFO  com.api.listners.MyTestListner - TEST SUUCESS-> createUserAccountTestbyLombok
+20:51:29 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Completed>>>>>>>>>>
+20:51:29 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Started>>>>>>>>>>
+20:51:29 [main] INFO  com.api.listners.MyTestListner - TEST STARTED-> forgotPasswordTest
+20:51:29 [main] INFO  com.api.listners.MyTestListner - TEST DESCRIPTION->Verify the Forgot Password Functionality
+20:51:29 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:51:29 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+20:51:29 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {"email":"boda.v7@aol.com"}
+20:51:30 [main] INFO  com.api.filters.LoggingFilter - Status Code: 500
+20:51:30 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "timestamp": "2025-06-14 03:51:30",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/auth/forgot-password",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+20:51:30 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:51:30 GMT
+Connection=close
+20:51:30 [main] INFO  com.api.listners.MyTestListner - TEST SUUCESS-> forgotPasswordTest
+20:51:30 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Completed>>>>>>>>>>
+20:51:30 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Started>>>>>>>>>>
+20:51:30 [main] INFO  com.api.listners.MyTestListner - TEST STARTED-> getProfileInfoTest
+20:51:30 [main] INFO  com.api.listners.MyTestListner - TEST DESCRIPTION->Verify get profile of user
+20:51:30 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:51:30 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+20:51:30 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {"username":"BoxelAr","password":"Abc@12345"}
+20:51:31 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:51:31 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODczMDkxLCJleHAiOjE3NDk4NzY2OTF9.rgTTeEVslX_9gr4qqFMfLsqAamEVvJaYx4Wtfwn9x4g",
+    "type": "Bearer",
+    "id": 1592,
+    "username": "BoxelAr",
+    "email": "boxelar540@gotemv.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+20:51:31 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:51:31 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:51:31 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:51:31 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODczMDkxLCJleHAiOjE3NDk4NzY2OTF9.rgTTeEVslX_9gr4qqFMfLsqAamEVvJaYx4Wtfwn9x4g
+Accept=*/*
+20:51:31 [main] INFO  com.api.filters.LoggingFilter - PayLoad: null
+20:51:31 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:51:31 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "id": 1592,
+    "username": "BoxelAr",
+    "email": "boxelar540@gotemv.com",
+    "firstName": "Sanjeeva Reddy",
+    "lastName": "Boda",
+    "mobileNumber": "6478641888"
+}
+20:51:31 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:51:31 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:51:31 [main] INFO  com.api.listners.MyTestListner - TEST SUUCESS-> getProfileInfoTest
+20:51:31 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Completed>>>>>>>>>>
+20:51:31 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Started>>>>>>>>>>
+20:51:31 [main] INFO  com.api.listners.MyTestListner - TEST STARTED-> loginAPITest1
+20:51:31 [main] INFO  com.api.listners.MyTestListner - TEST DESCRIPTION->Validating the basic login functionality
+20:51:31 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:51:31 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+20:51:31 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {
+  "username": "BoxelAr",
+  "password": "Abc@12345"
+}
+20:51:32 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:51:32 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODczMDkyLCJleHAiOjE3NDk4NzY2OTJ9.cKAyJJGe2u04e8ph4LkE8svBHZ1KpDeCjZbC1V2f0HY",
+    "type": "Bearer",
+    "id": 1592,
+    "username": "BoxelAr",
+    "email": "boxelar540@gotemv.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+20:51:32 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:51:32 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:51:32 [main] INFO  com.api.listners.MyTestListner - TEST SUUCESS-> loginAPITest1
+20:51:32 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Completed>>>>>>>>>>
+20:51:32 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Started>>>>>>>>>>
+20:51:32 [main] INFO  com.api.listners.MyTestListner - TEST STARTED-> loginAPITest
+20:51:32 [main] INFO  com.api.listners.MyTestListner - TEST DESCRIPTION->Validating the basic login functionality
+20:51:32 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:51:32 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+20:51:32 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {"username":"BoxelAr","password":"Abc@12345"}
+20:51:33 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:51:33 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODczMDkzLCJleHAiOjE3NDk4NzY2OTN9.sm9iqm7JxUz2qARD-_vs5Hqqzs7aY-JCVCRLN0CjYgo",
+    "type": "Bearer",
+    "id": 1592,
+    "username": "BoxelAr",
+    "email": "boxelar540@gotemv.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+20:51:33 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:51:33 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:51:33 [main] INFO  com.api.listners.MyTestListner - TEST SUUCESS-> loginAPITest
+20:51:33 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Completed>>>>>>>>>>
+20:51:33 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Started>>>>>>>>>>
+20:51:33 [main] INFO  com.api.listners.MyTestListner - TEST STARTED-> updateProfileTest
+20:51:33 [main] INFO  com.api.listners.MyTestListner - TEST DESCRIPTION->Verify update profile is updating the details
+20:51:33 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:51:33 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Accept=*/*
+Content-Type=application/json
+20:51:33 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {"username":"BoxelAr","password":"Abc@12345"}
+20:51:33 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:51:33 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODczMDk0LCJleHAiOjE3NDk4NzY2OTR9.3qWDDpr4SnBIxFRSUylrYOvV0XivE3hS54VcrxxzsAQ",
+    "type": "Bearer",
+    "id": 1592,
+    "username": "BoxelAr",
+    "email": "boxelar540@gotemv.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+20:51:33 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:51:34 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:51:33 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:51:33 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODczMDk0LCJleHAiOjE3NDk4NzY2OTR9.3qWDDpr4SnBIxFRSUylrYOvV0XivE3hS54VcrxxzsAQ
+Accept=*/*
+20:51:33 [main] INFO  com.api.filters.LoggingFilter - PayLoad: null
+20:51:34 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:51:34 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "id": 1592,
+    "username": "BoxelAr",
+    "email": "boxelar540@gotemv.com",
+    "firstName": "Sanjeeva Reddy",
+    "lastName": "Boda",
+    "mobileNumber": "6478641888"
+}
+20:51:34 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:51:34 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:51:34 [main] INFO  com.api.filters.LoggingFilter - Base URI: http://64.227.160.186:8080
+20:51:34 [main] INFO  com.api.filters.LoggingFilter - Request Headers : Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODczMDk0LCJleHAiOjE3NDk4NzY2OTR9.3qWDDpr4SnBIxFRSUylrYOvV0XivE3hS54VcrxxzsAQ
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJCb3hlbEFyIiwiaWF0IjoxNzQ5ODczMDk0LCJleHAiOjE3NDk4NzY2OTR9.3qWDDpr4SnBIxFRSUylrYOvV0XivE3hS54VcrxxzsAQ
+Content-Type=application/json
+20:51:34 [main] INFO  com.api.filters.LoggingFilter - PayLoad: {"firstName":"Sanjeeva Reddy","lastName":"Boda","email":"boxelar540@gotemv.com","mobileNumber":"6478641888"}
+20:51:34 [main] INFO  com.api.filters.LoggingFilter - Status Code: 200
+20:51:34 [main] INFO  com.api.filters.LoggingFilter - Resp Body: {
+    "id": 1592,
+    "username": "BoxelAr",
+    "email": "boxelar540@gotemv.com",
+    "firstName": "Sanjeeva Reddy",
+    "lastName": "Boda",
+    "mobileNumber": "6478641888"
+}
+20:51:34 [main] INFO  com.api.filters.LoggingFilter - Resp Headers: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 14 Jun 2025 03:51:35 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+20:51:34 [main] INFO  com.api.listners.MyTestListner - TEST SUUCESS-> updateProfileTest
+20:51:34 [main] INFO  com.api.listners.MyTestListner - <<<<<<<<<<Test Suite Completed>>>>>>>>>>
